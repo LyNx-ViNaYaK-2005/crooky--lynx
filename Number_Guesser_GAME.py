@@ -51,6 +51,7 @@ def comparision(x,y,remaining_guesses):
    
 def number_guesser():
         x= int(input('ASK YOUR FRIEND TO ENTER A NUMBER THAT HE WANT YOU TO GUESS BTW 1 TO 51'))
+        print('\tYOU HAVE GOT ONLY 7 CHANCES')
         y=int(input('ENTER THE NUMBER YOU GUESSED:-'))
         print('YOUR GUESS IS:',y)
         remaining_guesses = 8
